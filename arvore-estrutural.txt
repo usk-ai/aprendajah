@@ -1,0 +1,14 @@
+/
+├── .github/                # Workflows de CI/CD (GitHub Actions)
+├── public/                 # Assets estáticos (ícones do PWA, logotipos)
+├── src/
+│   ├── assets/             # Estilos globais e imagens
+│   ├── components/         # Componentes reutilizáveis (Botões, Cards)
+│   ├── hooks/              # Lógica de PWA e chamadas de API customizadas
+│   ├── services/           # Configuração de Axios e Dexie (IndexedDB)
+│   ├── store/              # Gerenciamento de estado (Zustand ou Context API)
+│   └── views/              # Páginas principais (Home, Search, Details)
+├── package.json
+├── vite.config.ts          # Configurações do Vite e Plugin PWA
+└── .env.example            # Exemplo de variáveis de ambiente
+#v1.0.0-MVP
